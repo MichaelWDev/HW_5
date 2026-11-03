@@ -157,14 +157,14 @@ edit_distance()
 # 		I've tried troubleshooting this for 3-4 hours...
 #		I don't know what the issue is with it :(
 
-		My Output:
-			2
-			LOVE --> .M.OVE
-			MOVE --> MOV[I]E
-			MOVIE
+		# My Output:
+		# 	2
+		# 	LOVE --> .M.OVE
+		# 	MOVE --> MOV[I]E
+		# 	MOVIE
 
-		Expected Output:
-			2
-			LOVE --> LOV[I]E
-			LOVIE --> .M.OVIE
-			MOVIE
+		# Expected Output:
+		# 	2
+		# 	LOVE --> LOV[I]E
+		# 	LOVIE --> .M.OVIE
+		# 	MOVIE
