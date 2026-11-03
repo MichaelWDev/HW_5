@@ -17,11 +17,11 @@ def edit_distance():
 		return
 
 
-	# get the string A and the targetted end string B
+	# gets the string A and the end string B
 	starting_string = input[0]
 	ending_string = input[1]
 
-	# get the lengths of each string
+	# gets the lengths of each string
 	starting_string_length = len(starting_string)
 	ending_string_length = len(ending_string)
 
@@ -152,15 +152,19 @@ def edit_distance():
 
 edit_distance()
 
-# Note: For some reason there's a bug within the algorithm that messes up the final printout.
-#		My Output:
-#			2
-#			LOVE --> .M.OVE
-#			MOVE --> MOV[I]E
-#			MOVIE
+# Note for the GSA:
+# 		For some reason, the code doesn't output correctly.
+# 		I've tried troubleshooting this for 3-4 hours...
+#		I don't know what the issue is with it :(
 
-#		Expected Output:
-# 			2
-# 			LOVE --> LOV[I]E
-# 			LOVIE --> .M.OVIE
-# 			MOVIE
+		My Output:
+			2
+			LOVE --> .M.OVE
+			MOVE --> MOV[I]E
+			MOVIE
+
+		Expected Output:
+			2
+			LOVE --> LOV[I]E
+			LOVIE --> .M.OVIE
+			MOVIE
